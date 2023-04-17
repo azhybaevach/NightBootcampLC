@@ -1,0 +1,7 @@
+a = int(input('число 1: '))
+b = int(input('число 2'))
+c = int(input('число 3'))
+d = int(input('число 4'))
+e = int(input('число 5'))
+numbers = set(a, b, c, d, e)
+print(numbers)
