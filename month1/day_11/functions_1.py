@@ -12,17 +12,40 @@
 #
 # reverse_list()
 
-# Создайте функцию которая генерирует 10 чисел Фибоначчи:
+#Problem_2 Создайте функцию которая генерирует 10 чисел Фибоначчи:
 #
 # 1,1,2,3,5,8,13,21,34,...
 
-def fib():
-    a = 
-    for i in range(11):
-        a == (i-1) + i
-        print(a)
+# def generate_fibonacci():
+#     fib = [1, 1]
+#     for i in range(2, 10):
+#         fib.append(fib[i-1] + fib[i-2])
+#     return fib
+#
+# numbers = generate_fibonacci()
+# print(numbers)
 
-fib()
+#problem_3
+
+
+# Создайте функцию сложения, затем функцию вычитания двух чисел...
+# Создайте 3-ю функцию которая вызывает первые 2 внутри себя.
+
+def summa(a, b):
+    return a+b
+
+def minus(a, b):
+    return a-b
+
+def total(a, b):
+    result_1 = summa(a, b)
+    result_2 = minus(a, b)
+    return result_1, result_2
+a = 10
+b = 8
+#print(summa(a, b))
+#print(minus(a, b))
+print(total(a, b))
 
 
 
